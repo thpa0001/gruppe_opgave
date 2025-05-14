@@ -112,5 +112,19 @@ nav {
   nav.active .menu a {
     font-size: 24px;
   }
+
+  p {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 2.5;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  p {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 2.5;
+    padding-bottom: 15px;
+  }
 }
 /*****MENU*******/
