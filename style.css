@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --header_footer_green: #005b48;
+}
+:root {
+  --tekst: "Times New Roman", Times, serif;
+}
 /*****MENU*******/
 header {
   position: sticky;
@@ -11,7 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background-color: #005b48;
+  background-color: var(--header_footer_green);
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 .logo img {
@@ -97,7 +103,7 @@ nav {
     display: block;
     background-color: #ffffff;
     position: absolute;
-    top: 94px;
+    top: 77px;
     left: 0;
     width: 100%;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -111,32 +117,23 @@ nav {
   nav.active .menu a {
     font-size: 24px;
   }
-
-  p {
-    font-family: "Times New Roman", Times, serif;
-    line-height: 2.5;
-    padding-bottom: 15px;
-  }
 }
-
-@media screen and (min-width: 800px) {
-  p {
-    font-family: "Times New Roman", Times, serif;
-    line-height: 2.5;
-    padding-bottom: 15px;
-  }
-}
-h1 {
-  font-family: "Poiret One";
-  font-size: 40px;
-  color: #fff0fb;
-  text-shadow: 0 0 2px #dc3d9b, 0 0 5px #dc3d9b, 0 0 10px #dc3d9b, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4;
-}
-
 /*****MENU*******/
 
 /*****BODY*******/
 body {
   background-color: #ffefe0;
+}
+p {
+  font-family: var(--tekst);
+  line-height: 2.5;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-family: "Poiret One";
+  font-size: 40px;
+  color: #fff0fb;
+  text-shadow: 0 0 2px #dc3d9b, 0 0 5px #dc3d9b, 0 0 10px #dc3d9b, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4;
 }
 /*****BODY*******/
