@@ -10,11 +10,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #ffffff;
+  padding: 15px;
+  background-color: #005b48;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
-
 .logo img {
   width: 50px;
   height: 50px;
@@ -134,13 +133,6 @@ h1 {
   text-shadow: 0 0 2px #dc3d9b, 0 0 5px #dc3d9b, 0 0 10px #dc3d9b, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px;
-  background-color: #005b48;
-}
 /*****MENU*******/
 
 /*****BODY*******/
