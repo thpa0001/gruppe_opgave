@@ -48,7 +48,7 @@ nav {
 .menu a {
   display: block;
   padding: 10px;
-  color: white;
+  color: var(--header_footer_green);
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
