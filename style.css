@@ -97,7 +97,7 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #ffffff;
+    background-color: var(--header_footer_green);
     position: absolute;
     top: 77px;
     left: 0;
@@ -122,7 +122,7 @@ body {
 }
 p {
   font-family: var(--tekst);
-  line-height: 2.5;
+  line-height: 1.9;
   padding-bottom: 15px;
 }
 
