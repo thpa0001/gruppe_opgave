@@ -10,6 +10,12 @@ main {
   --tekst: "Times New Roman", Times, serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .infoboks {
   background-color: var(--header_footer_green);
   padding: 15px;
