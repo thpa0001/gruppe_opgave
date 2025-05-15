@@ -1,5 +1,5 @@
 main {
-  padding: 15px;
+  padding: 10px;
   max-width: 1000px;
   background-color: #ffefe0;
 }
@@ -16,14 +16,50 @@ img {
   display: block;
 }
 
-.infoboks {
-  background-color: var(--header_footer_green);
-  padding: 15px;
-  border-radius: 8px;
-  font-size: 16px;
-  color: white;
-  max-width: 300px;
+header {
+  position: sticky; /* eller fixed, hvis det er tilfældet */
+  top: 0;
+  z-index: 20; /* højere end 10 */
 }
+
+main {
+  text-align: left;
+}
+/****PILSNER****/
+
+.infoboks {
+  position: relative;
+  background-color: var(--header_footer_green);
+  padding: 0px 10px;
+  font-size: 25px;
+  line-height: 2;
+  color: white;
+  max-width: 169px;
+  margin-top: -39px;
+  margin-left: 105px;
+  margin-bottom: 19px;
+  z-index: 10;
+  border: 1px solid black;
+  -webkit-text-stroke: 0.3px black; /* sort kant rundt om tekst */
+}
+
+.pilsner-pris {
+  display: flex;
+  justify-content: flex-start;
+  gap: 23px;
+}
+
+.pilsner {
+  font-family: "Zapfino", cursive;
+  font-size: 22px;
+}
+
+.pris {
+  font-weight: normal;
+  font-family: var(--tekst);
+  margin-top: -17%;
+}
+/****PILSNER****/
 
 /****FOOTER****/
 .footer {
