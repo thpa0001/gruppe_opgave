@@ -60,8 +60,37 @@ main {
   z-index: 10;
   border: 1px solid black;
   -webkit-text-stroke: 0.3px black; /* sort kant rundt om tekst */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Let tekst-skygge */
 }
 
+.knap a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  background-color: var(--header_footer_green);
+  font-size: 25px;
+  line-height: 2;
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+  padding: 10px 20px; /* Luft rundt om teksten */
+  border-radius: 102px; /* Runde hjørner */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Let tekst-skygge */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Skygge på knappen for dybde */
+  display: inline-block; /* Sørger for at padding virker fint */
+
+  width: 200px; /* Gør knappen bredere */
+  max-width: 90%; /* Så den ikke bliver for bred på små skærme */
+  text-align: center; /* Centrer teksten i knappen */
+  margin-top: 10px; /* Luft omkring og centrer knappen */
+  margin-bottom: 100px;
+  margin-left: 110px;
+}
+.knap a:hover {
+  background-color: #004237; /* En lidt mørkere grøn */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Større skygge på hover */
+  cursor: pointer; /* Ændrer muse-pilen til hånd for at vise det er klikbart */
+}
 .pilsner-pris {
   display: flex;
   justify-content: flex-start;
@@ -98,6 +127,7 @@ main {
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 1.4rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Let tekst-skygge */
 }
 
 .footer p,
@@ -106,6 +136,7 @@ main {
   font-size: 1rem;
   color: white;
   text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Let tekst-skygge */
 }
 
 .footer a:hover {
@@ -126,6 +157,7 @@ main {
   padding-top: 0px;
   border-top: 1px solid #333;
   font-size: 0.9rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Let tekst-skygge */
 }
 
 .social-icons a {
