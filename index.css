@@ -82,11 +82,15 @@ main {
   width: 200px; /* Gør knappen bredere */
   max-width: 90%; /* Så den ikke bliver for bred på små skærme */
   text-align: center; /* Centrer teksten i knappen */
-  margin-top: 30px; /* Luft omkring og centrer knappen */
+  margin-top: 10px; /* Luft omkring og centrer knappen */
   margin-bottom: 100px;
   margin-left: 110px;
 }
-
+.knap a:hover {
+  background-color: #004237; /* En lidt mørkere grøn */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Større skygge på hover */
+  cursor: pointer; /* Ændrer muse-pilen til hånd for at vise det er klikbart */
+}
 .pilsner-pris {
   display: flex;
   justify-content: flex-start;
