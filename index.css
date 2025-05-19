@@ -36,6 +36,7 @@ img {
 img.udenfor {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  margin-left: auto;
   display: block;
   max-width: 100vw;
   height: auto;
@@ -60,7 +61,7 @@ main {
   text-decoration: underline;
 }
 .bold {
-  font-weight: bold;
+  font-weight: 600;
 }
 /****PILSNER****/
 
@@ -125,4 +126,36 @@ main {
   font-family: var(--tekst);
   margin-top: -17%;
 }
+
 /****PILSNER****/
+
+.grid_1-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1200px; /* Gør den ikke fylder hele skærmen */
+  margin: 0 auto; /* Centrerer hele boksen */
+  padding: 0 1rem; /* Giver lidt luft i siderne på mobil */
+}
+
+@media (min-width: 768px) {
+  .grid_1-1 {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .info-tekst,
+  .info-billede {
+    flex: 1;
+  }
+
+  .info-billede img {
+    width: 100%;
+    height: auto;
+  }
+
+  .knap {
+    margin-top: 1rem;
+  }
+}
