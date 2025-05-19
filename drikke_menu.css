@@ -42,3 +42,63 @@ main {
   text-align: right;
   margin-left: 20px;
 }
+
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.menu-container {
+  background-color: #7da35d;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  border: 1px solid white;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 0.5rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 0;
+  font-size: 1rem;
+}
+
+.row span:last-child {
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .menu-container {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .row span:last-child {
+    align-self: flex-end;
+  }
+}
