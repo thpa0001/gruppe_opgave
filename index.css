@@ -54,6 +54,14 @@ main {
   text-align: left;
   flex: 1;
 }
+
+.underline {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.bold {
+  font-weight: bold;
+}
 /****PILSNER****/
 
 .infoboks {
