@@ -1,8 +1,4 @@
-body {
-  margin: 0;
-  font-family: serif;
-}
-
+/* Main */
 .date-header {
   background: linear-gradient(to right, #5ac0a0, #1c5a47);
   color: black;
