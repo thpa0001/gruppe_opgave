@@ -51,19 +51,29 @@ body {
 }
 
 .menu-container {
-  background-color: #7da35d;
+  background-color: var(--header_footer_green);
   margin: 2rem auto;
-  padding: 2rem;
-  max-width: 800px;
-  border: 1px solid white;
+  padding: 3rem 2rem;
+  max-width: 600px;
 }
-
+.menu-streg {
+  border: 1.5px solid white;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 100%; /* Justér hvor meget mindre den hvide boks skal være */
+}
 h1,
 h2 {
   text-align: center;
   margin: 1rem 0;
 }
-
+.drikkevarer {
+  font-family: "Poiret One";
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff0fb;
+  margin-top: -6%;
+}
 .section {
   margin-bottom: 2rem;
 }
@@ -78,8 +88,9 @@ h2 {
 .row {
   display: flex;
   justify-content: space-between;
-  padding: 0.2rem 0;
-  font-size: 1rem;
+  align-items: center;
+  padding: 4px 0;
+  border-bottom: 3px dotted #ccc; /* valgfrit: en linje mellem rækker */
 }
 
 .row span:last-child {
