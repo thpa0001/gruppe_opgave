@@ -63,7 +63,8 @@ nav {
 .burger .line {
   width: 100%;
   height: 2px;
-  background-color: #333333;
+  background-color: white;
+  border: 0.2px solid black;
   margin-bottom: 5px;
   transition: 0.2s linear;
 }
