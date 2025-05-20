@@ -8,9 +8,10 @@
 }
 
 main {
-  padding: 10px;
   max-width: 1000px;
   background-color: #ffefe0;
+  margin: 0 auto;
+  max-width: 100%;
 }
 html,
 body {
@@ -26,15 +27,13 @@ body {
 }
 
 img {
-  margin-left: -2.3%;
-  margin-top: -3%;
-  max-width: 100vw;
+  margin: 0;
+  max-width: 100%;
   height: auto;
   display: block;
 }
 
 img.udenfor {
-  margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: auto;
   display: block;
@@ -50,10 +49,6 @@ header {
 .logo a {
   text-decoration: none;
   color: inherit;
-}
-main {
-  text-align: left;
-  flex: 1;
 }
 
 .underline {
@@ -72,9 +67,8 @@ main {
   font-size: 25px;
   line-height: 2;
   color: white;
-  max-width: 169px;
   margin-top: -39px;
-  margin-left: 105px;
+  margin-left: -24px;
   margin-bottom: 19px;
   z-index: 10;
   border: 1px solid black;
@@ -103,7 +97,7 @@ main {
   text-align: center; /* Centrer teksten i knappen */
   margin-top: 10px; /* Luft omkring og centrer knappen */
   margin-bottom: 100px;
-  margin-left: 110px;
+  margin-left: 126px;
 }
 .knap a:hover {
   background-color: #587347; /* En lidt mørkere grøn */
@@ -127,22 +121,52 @@ main {
   margin-top: -17%;
 }
 
+.label {
+  position: relative;
+  padding: 0px 10px;
+  max-width: 169px;
+  margin-top: -69px;
+  margin-left: -55px;
+  margin-bottom: 19px;
+  z-index: 10;
+  -webkit-text-stroke: 0.3px black; /* sort kant rundt om tekst */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Let tekst-skygge */
+}
+
 /****PILSNER****/
 
 .grid_1-1 {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+
   align-items: center;
   max-width: 1200px; /* Gør den ikke fylder hele skærmen */
   margin: 0 auto; /* Centrerer hele boksen */
   padding: 0 1rem; /* Giver lidt luft i siderne på mobil */
+  width: 100%;
+  box-sizing: border-box;
+}
+.label-infoboks-wrapper {
+  margin-left: -77px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 @media (min-width: 768px) {
+  .label-infoboks-wrapper {
+    margin-left: -20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+  }
   .grid_1-1 {
     flex-direction: row;
     align-items: flex-start;
+    gap: 3rem;
+    margin-bottom: 3rem;
   }
 
   .info-tekst,
@@ -151,11 +175,32 @@ main {
   }
 
   .info-billede img {
-    width: 100%;
+    width: 106%;
     height: auto;
   }
 
   .knap {
     margin-top: 1rem;
+  }
+  img {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .knap a {
+    margin-left: 155px;
+    display: block;
+  }
+  .infoboks {
+    position: relative;
+    background-color: var(--header_footer_green);
+    padding: 0px 10px;
+    font-size: 25px;
+    line-height: 2;
+    color: white;
+    margin-top: -39px;
+    margin-left: -24px;
   }
 }
