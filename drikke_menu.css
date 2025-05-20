@@ -93,10 +93,6 @@ main {
 .social-icons a:hover {
   opacity: 0.7;
 }
-
-main {
-  margin: auto;
-}
 /* Mobilvenlig */
 @media (max-width: 799px) {
   .footer {
