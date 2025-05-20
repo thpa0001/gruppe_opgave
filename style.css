@@ -52,8 +52,12 @@ nav {
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
+  text-decoration: underline;
 }
 
+.menu a:hover {
+  color: rgb(88, 87, 87); /* eller en farve du selv vælger */
+}
 .burger {
   width: 30px;
   height: 20px;
@@ -126,6 +130,7 @@ p {
   font-family: var(--tekst);
   line-height: 1.9;
   padding-bottom: 15px;
+  font-size: 22px;
 }
 
 h1 {
