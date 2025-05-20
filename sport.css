@@ -59,3 +59,17 @@ img {
   height: 80%;
   align-items: center;
 }
+
+@media screen and (min-width: 799px) {
+  main {
+    margin: auto;
+  }
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  .zouma {
+    width: 100%;
+  }
+}

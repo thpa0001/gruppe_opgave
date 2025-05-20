@@ -94,8 +94,11 @@ main {
   opacity: 0.7;
 }
 
+main {
+  margin: auto;
+}
 /* Mobilvenlig */
-@media (max-width: 800px) {
+@media (max-width: 799px) {
   .footer {
     padding: 20px;
     overflow-x: hidden;

@@ -73,7 +73,7 @@ nav {
   top: 32px;
   right: 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 799px) {
   .menu {
     display: none;
   }
