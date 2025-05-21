@@ -102,12 +102,9 @@ h2 {
     margin: auto;
   }
   img {
-    width: 100vw;
-    max-width: 100vw;
-    margin-left: calc(-50vw + 50%);
+    max-width: 100%;
     display: block;
-    object-fit: cover;
-    max-height: 85vh;
+    height: 70%;
   }
   .section-row {
     display: grid;
