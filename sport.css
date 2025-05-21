@@ -1,6 +1,6 @@
 /* Main */
 .date-header {
-  background: linear-gradient(to right, #5ac0a0, #1c5a47);
+  background: linear-gradient(to right, #4a9d84, #80a768);
   color: black;
   font-weight: bold;
   font-size: 1.5rem;
@@ -58,6 +58,10 @@ img {
   width: 100%;
   height: auto;
   align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 799px) {
