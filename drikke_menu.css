@@ -38,8 +38,14 @@ main {
 body {
   margin: 0;
   font-family: var(--tekst);
-  font-size: large;
   color: white;
+}
+.bar_billede {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* Fylder containeren pænt ud */
+  max-height: 60vh; /* Juster for mobilvisning */
 }
 
 .menu-container {

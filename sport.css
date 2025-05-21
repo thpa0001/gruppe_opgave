@@ -74,13 +74,15 @@ img {
     margin-bottom: 50px;
   }
   img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     display: block;
-    height: 70%;
+    object-fit: cover; /* Fylder containeren pænt ud */
+    max-height: 60vh; /* Juster for mobilvisning */
   }
+}
 
-  .sport {
-    max-width: 799px;
-    margin: auto;
-  }
+.sport {
+  max-width: 799px;
+  margin: auto;
 }
