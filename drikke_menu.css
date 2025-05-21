@@ -101,11 +101,7 @@ h2 {
   main {
     margin: auto;
   }
-  img {
-    max-width: 100%;
-    display: block;
-    height: 70%;
-  }
+
   .section-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
