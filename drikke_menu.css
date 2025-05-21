@@ -6,13 +6,6 @@
   --header_footer_green: #80a768;
   --tekst: "Times New Roman", Times, serif;
 }
-
-img {
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 main {
   padding: 10px;
   max-width: 1000px;
