@@ -94,11 +94,6 @@ h2 {
   main {
     margin: auto;
   }
-  .bar_billede {
-    width: 100%;
-    height: auto;
-    align-items: center;
-  }
   .section-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
