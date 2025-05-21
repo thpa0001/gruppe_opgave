@@ -6,13 +6,6 @@
   --header_footer_green: #80a768;
   --tekst: "Times New Roman", Times, serif;
 }
-
-img {
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 main {
   padding: 10px;
   max-width: 1000px;
@@ -101,11 +94,10 @@ h2 {
   main {
     margin: auto;
   }
-  img {
-    max-width: 100%;
-    display: block;
-    height: 70%;
-    margin-top: 10px;
+  .bar_billede {
+    width: 100%;
+    height: auto;
+    align-items: center;
   }
   .section-row {
     display: grid;
