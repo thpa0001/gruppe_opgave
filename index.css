@@ -60,6 +60,14 @@ header {
 }
 /****PILSNER****/
 
+.video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* Fylder containeren pænt ud */
+  max-height: 60vh; /* Juster for mobilvisning */
+}
+
 .infoboks {
   position: relative;
   background-color: var(--header_footer_green);
@@ -67,15 +75,17 @@ header {
   font-size: 25px;
   line-height: 2;
   color: white;
-  margin-top: -39px;
-  margin-left: -24px;
-  margin-bottom: 19px;
+  margin-top: -26px;
+  margin-left: -13px;
   z-index: 10;
   border: 1px solid black;
   -webkit-text-stroke: 0.3px black; /* sort kant rundt om tekst */
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Let tekst-skygge */
 }
-
+.label {
+  width: 150px;
+  height: auto;
+}
 .knap a {
   text-decoration: none;
   color: inherit;
@@ -118,7 +128,7 @@ header {
 .pris {
   font-weight: normal;
   font-family: var(--tekst);
-  margin-top: -17%;
+  margin-top: 0%;
 }
 
 .label {
@@ -200,7 +210,15 @@ header {
     font-size: 25px;
     line-height: 2;
     color: white;
-    margin-top: -39px;
-    margin-left: -24px;
+    margin-top: -25px;
+    margin-left: -4px;
+  }
+  .video {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(-50vw + 50%); /* Trækker videoen ud så den går helt til kanten */
+    display: block;
+    object-fit: cover;
+    max-height: 85vh; /* Behold højden, så den ikke bliver for høj */
   }
 }
