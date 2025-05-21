@@ -133,8 +133,11 @@ p {
   font-size: 22px;
 }
 
-h1 {
+.logo p {
   font-family: "Poiret One";
+  padding-bottom: 0;
+  margin-bottom: 0;
+  line-height: 1;
   font-size: 40px;
   color: #fff0fb;
   text-shadow: 0 0 2px #dc3d9b, 0 0 5px #dc3d9b, 0 0 10px #dc3d9b, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4;
