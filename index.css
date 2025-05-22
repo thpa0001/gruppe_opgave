@@ -41,11 +41,6 @@ img.udenfor {
   height: auto;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  z-index: 20; /* højere end 10 */
-}
 .logo a {
   text-decoration: none;
   color: inherit;
