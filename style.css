@@ -19,6 +19,7 @@ header {
   padding: 15px;
   background-color: var(--header_footer_green);
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  z-index: 50;
 }
 .logo img {
   width: 50px;
@@ -104,11 +105,11 @@ nav {
     display: block;
     background-color: var(--header_footer_green);
     position: absolute;
-    top: 77px;
+    top: 70px;
     left: 0;
     width: 100%;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1;
+    z-index: 10;
   }
 
   nav.active .menu li {
