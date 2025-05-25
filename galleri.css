@@ -229,6 +229,7 @@ h1 {
 img {
   width: 100%;
   padding: 10px;
+  border-radius: 8px; /* lidt bløde hjørner for pænere look */
 }
 h2 {
   text-align: center;
