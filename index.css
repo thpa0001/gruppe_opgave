@@ -39,6 +39,7 @@ img.udenfor {
   display: block;
   max-width: 100vw;
   height: auto;
+  border-radius: 8px; /* lidt bløde hjørner for pænere look */
 }
 
 .logo a {
