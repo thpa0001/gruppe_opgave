@@ -17,7 +17,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: visible;
 }
 
 body {
@@ -39,7 +39,6 @@ img.udenfor {
   display: block;
   max-width: 100vw;
   height: auto;
-  border-radius: 8px; /* lidt bløde hjørner for pænere look */
 }
 
 .logo a {
